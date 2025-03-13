@@ -1,3 +1,5 @@
+-- write your code for database user creation here
+
 CREATE USER 'webappuser'@'%' IDENTIFIED BY 'P@ssw0rd';
 GRANT CREATE, SELECT, UPDATE, DELETE ON ShopDB.* TO 'webappuser'@'%';
 
